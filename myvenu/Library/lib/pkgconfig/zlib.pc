@@ -1,0 +1,13 @@
+prefix=C:/LR-PRACTISE/myvenu/Library
+exec_prefix=C:/LR-PRACTISE/myvenu/Library
+libdir=C:/LR-PRACTISE/myvenu/Library/lib
+sharedlibdir=C:/LR-PRACTISE/myvenu/Library/lib
+includedir=C:/LR-PRACTISE/myvenu/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
